@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<List<Movie>>, t: Throwable) {
-                TODO("Not yet implemented")
+                println("Error en el On Failure")
             }
 
         })
